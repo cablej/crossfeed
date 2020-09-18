@@ -38,13 +38,7 @@ exports[`Header component matches snapshot 1`] = `
           </button>
           <a
             href="/"
-          >
-            <img
-              alt="Crossfeed Icon Navigate Home"
-              class="makeStyles-logo-3"
-              src="cisa_logo.png"
-            />
-          </a>
+          />
           <div
             class="makeStyles-mdNav-9"
           >
