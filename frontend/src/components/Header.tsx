@@ -15,7 +15,7 @@ import {
   AccountCircle as UserIcon
 } from '@material-ui/icons';
 import { useAuthContext } from 'context';
-import logo from '../assets/cisa_logo.png';
+// import logo from '../assets/cisa_logo.png';
 
 const GLOBAL_ADMIN = 4;
 const ORG_ADMIN = 2;
@@ -180,11 +180,11 @@ export const Header: React.FC = () => {
               <MenuIcon />
             </IconButton>
             <Link to="/">
-              <img
+              {/* <img
                 src={logo}
                 className={classes.logo}
                 alt="Crossfeed Icon Navigate Home"
-              />
+              /> */}
             </Link>
             <div className={classes.mdNav}>{desktopNavItems.slice(0, 3)}</div>
             <div className={classes.lgNav}>

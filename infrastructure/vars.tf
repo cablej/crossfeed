@@ -40,17 +40,17 @@ variable api_domain {
 
 variable frontend_domain {
   type    = string
-  default = "staging.crossfeed.cyber.dhs.gov"
+  default = "crossfeed.hacker.uno"
 }
 
 variable frontend_bucket {
   type    = string
-  default = "staging.crossfeed.cyber.dhs.gov"
+  default = "crossfeed.hacker.uno"
 }
 
 variable frontend_cert_arn {
   type    = string
-  default = "arn:aws:acm:us-east-1:563873274798:certificate/7c6a5980-80e3-47a4-9f21-cbda44b6f34c"
+  default = "arn:aws:acm:us-east-1:452579430023:certificate/d18a1e1b-2430-4844-ae62-43ce8304304f"
 }
 
 variable ssm_db_name {
@@ -165,7 +165,7 @@ variable user_pool_name {
 
 variable user_pool_domain {
   type    = string
-  default = "crossfeed-staging"
+  default = "crossfeed-staging-jack"
 }
 
 variable ssm_user_pool_id {
