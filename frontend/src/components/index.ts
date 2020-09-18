@@ -1,8 +1,8 @@
+export * from './Layout';
+export * from './GovBanner';
 export * from './Header';
-export * from './Footer';
 export * from './AuthRoute';
 export * from './Table';
-export * from './Layout';
 export * from './Paginator';
 export * from './ServicesTable';
 export * from './SSLInfo';
@@ -12,3 +12,4 @@ export * from './WebInfo';
 export * from './AuthForm';
 export * from './FileInput';
 export * from './ImportExport';
+export * from './RouteGuard';

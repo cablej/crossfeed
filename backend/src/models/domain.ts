@@ -39,7 +39,7 @@ export class Domain extends BaseEntity {
   fromRootDomain: string;
 
   @ManyToOne((type) => Scan, {
-    onDelete: 'CASCADE',
+    onDelete: 'SET NULL',
     onUpdate: 'CASCADE'
   })
   discoveredBy: Scan;
@@ -86,26 +86,6 @@ export class Domain extends BaseEntity {
     default: false
   })
   cloudHosted: boolean;
-
-  /** Wappalyzer output */
-  @Column({
-    type: 'jsonb',
-    default: []
-  })
-  webTechnologies: {
-    name: string;
-    slug: string;
-    version: string;
-    icon: string;
-    website: string;
-    confidence: number;
-    cpe?: string;
-    categories: {
-      name: string;
-      slug: string;
-      id: number;
-    }[];
-  }[];
 
   /** SSL Certificate information  */
   @Column({
