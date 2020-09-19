@@ -101,7 +101,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         run: npm run build
         env:
-          REACT_APP_API_URL: https://crossfeed.hacker.uno
+          REACT_APP_API_URL: https://api.crossfeed.hacker.uno
           REACT_APP_FARGATE_LOG_GROUP: crossfeed-staging-worker
           REACT_APP_USE_COGNITO: 1
           REACT_APP_USER_POOL_ID: us-east-1_4maA4UXDP
