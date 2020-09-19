@@ -1,7 +1,7 @@
 import React from 'react';
 import ScopedCssBaseline from '@material-ui/core/ScopedCssBaseline';
 import { makeStyles } from '@material-ui/core/styles';
-import { Header, GovBanner } from 'components';
+import { Header } from 'components';
 
 const useStyles = makeStyles(theme => ({
   root: {
