@@ -96,12 +96,12 @@ export const callback = async (event, context) => {
     };
   }
 
-  if (!userInfo.email_verified) {
-    return {
-      statusCode: 403,
-      body: ''
-    };
-  }
+  // if (!userInfo.email_verified) {
+  //   return {
+  //     statusCode: 403,
+  //     body: ''
+  //   };
+  // }
 
   userInfo.email = userInfo.email.toLowerCase();
 
