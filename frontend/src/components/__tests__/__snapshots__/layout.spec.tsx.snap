@@ -9,9 +9,6 @@ exports[`Layout component matches snapshot 1`] = `
       class="makeStyles-root-1"
     >
       <div>
-        GOV_BANNER
-      </div>
-      <div>
         HEADER
       </div>
       <div
