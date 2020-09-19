@@ -25,7 +25,6 @@ export const Layout: React.FC = ({ children }) => {
   return (
     <ScopedCssBaseline classes={{ root: classes.overrides }}>
       <div className={classes.root}>
-        <GovBanner />
         <Header />
 
         <div className={classes.content}>{children}</div>
